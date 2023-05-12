@@ -1,0 +1,60 @@
+/* <!--Program: style.css
+    Programmer: Olivia Escobar
+    Date: April 14 2023
+    Purpose: css for index.html  --> */
+
+#COGS {
+    width: 20%;
+    height: 7%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    padding-left: 5px;
+    ;
+}
+
+#datasources {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    align-items: center;
+}
+
+h1 {
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 7%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+html,
+body {
+    position: fixed;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #316191
+}
+
+#sourcesDiv {
+    display: flex;
+    height: 10%;
+}
+
+#viewDiv {
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+
+
+

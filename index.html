@@ -1,0 +1,40 @@
+<!--Program: index.html
+    Programmer: Olivia Escobar
+    Date: April 14 2023
+    Purpose: creating a Scene View map of Toronto Parks and benches  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toronto Parks and Benches</title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://js.arcgis.com/4.26/"></script>
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>City of Toronto Parks and Benches</h1>
+        <img id="COGS" src="https://pbs.twimg.com/media/EvvSyYbXYAsVGNP?format=png&name=large">
+    </div>
+
+    <div id="viewDiv"></div>
+
+    <div id="sourcesDiv"><br>
+        <pre id="datasources">
+            <b>Data Sources:</b>
+            Bench data obtained from the <i>City of Toronto Open Data Portal</i>. Retrieved from <a href=https://open.toronto.ca/dataset/street-furniture-bench/ target="_blank" style="color:white">https://open.toronto.ca/dataset/street-furniture-bench/</a>
+            Green spaces data obtained from the <i>City of Toronto Open Data Portal</i>. Retrieved from <a href="https://open.toronto.ca/dataset/green-spaces/" target="_blank" style="color:white">https://open.toronto.ca/dataset/green-spaces/</a>
+        </pre>
+      </div>
+</body>
+
+</html>
